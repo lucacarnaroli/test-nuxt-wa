@@ -1,0 +1,48 @@
+table{
+    padding: 1.8rem
+}
+
+table th {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+table tr:hover{
+    background-color: rgba(237, 237, 227, 0.557);
+}
+
+table th:nth-last-child(-n+2) {
+    text-align: right;
+    min-width: 130px !important;
+}
+
+table th:nth-last-child(n+3) {
+    text-align: left;
+    min-width: 160px !important;
+}
+
+table tr td:nth-last-child(-n+2) {
+    text-align: right;
+    padding-right: 0px !important;
+    
+}
+
+table tr td:nth-last-child(n+3) {
+    text-align: left;
+    padding-left: 0px !important;
+}
+
+
+.table-info-product td:nth-child(1){
+    text-align: left;
+}
+
+
+.description{
+    font-size: 0.85rem;
+}
+
+.box-title{
+    width: 100%;
+    padding: 0.2rem;
+}

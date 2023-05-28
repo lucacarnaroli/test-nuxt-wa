@@ -1,0 +1,7 @@
+<template>
+    <Navbar />
+    <product />
+</template>
+
+
+
